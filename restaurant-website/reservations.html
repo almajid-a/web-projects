@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Fork | Reservations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="inner-container">
+        <header class="flex-container">
+            <h1><a href="index.html">Little Fork Bistro</a></h1>
+            <nav>
+                <ul class="flex-container">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="reservations-flex">
+            <section class="reservations-banner">
+                <h2>Reservations</h2>
+                <p>Join us for dinner, warm conversation, and something worth savouring.</p>
+            </section>
+
+            <div>
+                <form action="#" method="post" name="reservations">
+                    <p class="alert">Online reservations are only available for evenings.</p>
+                    <fieldset>
+                        <!-- full name -->
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name">
+                        <!-- email -->
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </fieldset>
+
+                    <fieldset>
+                        <!-- date -->
+                        <div class="flex-container">
+                            <div>
+                                <label for="date">Date</label>
+                                <input type="date" name="date" id="date">
+                                <!-- time -->
+                            </div>
+                            <div>
+                                <label for="time">Time</label>
+                                <select name="time" id="time">
+                                    <option value="4:00pm">4:00pm</option>
+                                    <option value="4:30pm">4:30pm</option>
+                                    <option value="5:00pm">5:00pm</option>
+                                    <option value="5:30pm">5:30pm</option>
+                                    <option value="6:00pm">6:00pm</option>
+                                    <option value="6:15pm">6:15pm</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- number of guests -->
+                        <label for="guests">Number of Guests</label>
+                        <p>Groups of 5 or more please contact the restaurant to check availability.</p>
+                        <select name="guests" id="guests">
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                        </select>
+                        </fieldset>
+                        <!-- seating preference -->
+                        <fieldset>
+                            <legend>Seating Preference</legend>
+                            <label for="indoor">Indoor</label>
+                            <input type="radio" id="indoor" name="seating" value="indoor">
+                            <label for="bar">Bar</label>
+                            <input type="radio" id="bar" name="seating" value="bar">
+                            <label for="patio">Patio</label>
+                            <input type="radio" id="patio" name="seating" value="patio">
+                            <!-- special requests -->
+                            <label for="requests">Special Requests?</label>
+                            <textarea name="requests" id="requests"></textarea>
+                        </fieldset>
+
+                    
+                    <button type="submit">Book Reservation</button>
+                </form>
+            </div>
+            <figure>
+                <img src="img/map.avif" alt="A screenshot of a map with a red pin showing Little Fork Bistro location." width="629" height="400">
+                <figcaption>Map showing the location of Little Fork Bistro. </figcaption>
+            </figure>
+        </main>
+
+        <footer>
+            <p>Little Fork Bistro</p>
+            <div class="footer-flex">
+                <address class="address">
+                    <p>10423 83 Avenue NW Edmonton, AB</p>
+                    <p><a href="tel:8251234567">825-123-4567</a></p>
+                    <p><a href="mailto:contact@littlefork.ca">contact@littlefork.ca</a></p>
+                </address>
+                <div class="week-hours">
+                    <p>Hours: Tuesday to Friday</p>
+                    <p>11:30am - 2pm</p>
+                    <p>4pm - 10pm</p>
+                </div>
+                <div class="weekend-hours">
+                    <p>Hours: Saturday & Sunday</p>
+                    <p>9am - 2pm</p>
+                    <p>4pm - 10pm</p>
+                </div>
+            </div>
+            <p>© 2025 Little Fork. This website is for educational purposes only. All content is fictional and created for learning and demonstration.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

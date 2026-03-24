@@ -1,0 +1,357 @@
+/* fonts & color pallets
+
+fonts
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+
+  font-family: "Fira Sans Condensed", sans-serif;
+
+colors
+brown (also hover): #5A3228
+salmon (nav): #D2865B
+white: #FFF
+black: #000
+yellow: #E5D098
+salmon (others): #D08153
+
+*/
+
+body {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    color: #000;
+}
+
+/* add in the appropriate inner-container width */
+.inner-container {
+    width: 1288px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline dotted;
+    text-underline-offset: 8px;
+    font-size: 54px;
+    line-height: 1.5;
+    color: #D08153
+}
+
+header h1 a {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #5A3228;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    column-gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #D2865B;
+}
+
+header nav ul li a:hover {
+    color: #5A3228;
+}
+
+.flex-container {
+    display: flex;
+    column-gap: 32px;
+}
+.home-banner {
+    background-image: url("../img/home-banner.avif");
+    background-repeat: no-repeat;
+    padding: 143px 757px 66px 44px;
+    margin-bottom: 95px;
+}
+
+.home-banner h2 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    color: #E5D098;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.home-banner p {
+    width: 482px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.home-banner a {
+    display: inline-block;
+    color: #fff;
+    background-color: #D08153;
+    text-decoration: none;
+    margin-top: 33px;
+    padding: 12px 24px;
+}
+
+.about {
+  width: 628px;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  color: #000;
+  line-height: 1.5;
+  padding-bottom: 11px;
+}
+
+.about p {
+  width: 628px;
+  font-optical-sizing: auto;
+  color: #000;
+  line-height: 1.5;
+  padding-bottom: 22px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.menu-item {
+   border: 1px solid #5A3228; 
+   border-radius: 5px;
+   width: 252px;
+   padding: 22px;
+}
+
+.menu-item h3 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 22px;
+    color: #5A3228;
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+
+footer {
+    background-color: #5A3228;
+    color: #fff;
+    padding: 44px 22px;
+    margin-top: 85px;
+}
+
+.featured-menu {
+    margin-top: 85px;
+}
+
+.address {
+    width: 207px;
+    padding-right: 104px;
+}
+
+.address p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.address > p:nth-child(2) {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.address > p:last-child {
+    text-decoration: underline;
+}
+
+.week-hours {
+    width: 207px;
+}
+.week-hours > p:first-child {
+    color: #E5D098;
+}
+
+.weekend-hours {
+    width: 207px;
+    padding-left: 110px;
+}
+
+.weekend-hours > p:first-child {
+    color: #E5D098;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+}
+
+footer > p:first-child {
+    text-align: center;
+    color: #E5D098;
+    margin-bottom: 20px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+footer > p:last-child {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.reservations-banner {
+    background-image: url(../img/reservations-banner-image.avif);
+    background-repeat: no-repeat;
+    padding: 125px 524px 66px 44px;
+    margin-bottom: 44px;
+}
+
+.reservations-banner h2 {
+     font-family: "Fira Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    color: #E5D098;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.5;
+    text-decoration: none; 
+    margin-bottom: 11px;  
+}
+
+.reservations-banner p {
+    width: 720px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.reservations-flex {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 31px;
+}
+
+ form {
+    width: 628px;
+}
+
+form > p:first-child {
+    color: #5A3228;
+    background-color: #E5D098;
+    padding: 11px 22px;
+    margin: 0 0 22px 0;
+}
+
+legend {
+    color: #5A3228;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    color: #5A3228;
+    line-height: 1.5;
+    margin-bottom: 11px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+
+    border: 1px solid #5A3228;
+    border-radius: 4px;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    width: 624px;
+    height: 54px;
+    margin-bottom: 22px;
+}
+
+input[type="date"],
+select[name="time"] {
+    width: 297px;
+    height: 54px;
+}
+
+select[name="guests"] {
+    width: 628px;
+}
+
+textarea {
+    min-height: 230px;
+    resize: vertical;
+}
+
+fieldset p {
+    background-color: #E5D098;
+    padding: 11px 22px;
+    margin: 0 0 11px 0;
+    color: #5A3228;
+    margin-bottom: 22px;
+}
+
+fieldset label[for="indoor"],
+fieldset label[for="bar"],
+fieldset label[for="patio"] {
+    display: inline;
+    font-weight: 400;
+    color: #000;
+    
+}
+
+input[type="radio"] {
+    accent-color: #D08153;
+    margin-right: 30px;
+    margin-bottom: 22px;
+}
+
+button[type="submit"] {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #fff;
+    background-color: #D08153;
+    border: none;
+    border-radius: 6px;
+    padding: 0 44px 0 44px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    color: #E5D098;
+}
+
+
+
+
+figcaption {
+    margin: 22px;
+    font-style: italic;
+}
