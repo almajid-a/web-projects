@@ -9,6 +9,8 @@ Each project focuses on building structured layouts, applying styling, and organ
 ### 1. Restaurant Website
 A multi-page website that includes a main page and a reservations page, with organized assets and styling.
 
+Live Demo: https://almajid-a.github.io/web-projects/restaurant-website/
+
 **Key Concepts:**
 - HTML structure
 - CSS styling and layout
