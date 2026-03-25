@@ -3,6 +3,9 @@
 ## Overview
 A multi-page website built using HTML and CSS. It includes a main page and a reservations page with form-based user input, structured layout, and styling.
 
+## Live Demo
+https://almajid-a.github.io/web-projects/restaurant-website/
+
 ## Features
 - Multi-page navigation
 - Custom CSS styling
